@@ -491,7 +491,7 @@ ${global.owner.map((v, i) => '*Contacto ' + (i + 1) + ':* wa.me/' + v).join('\n'
       }
     })
     this.copyNForward(m.key.remoteJid, m.message).catch(e => console.log(e, m))
-  },
+  }
 
 
 global.dfail = (type, m, conn) => {
